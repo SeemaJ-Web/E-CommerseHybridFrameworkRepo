@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="e_Com.listeners.MyListeners"/>
+  </listeners>
+  <test thread-count="5" name="E-Commerse Test(failed)">
+    <classes>
+      <class name="e_Com.tests.LoginTest">
+        <methods>
+          <include name="verifylogingusingcorrectemailpass"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- e_Com.tests.LoginTest -->
+      <class name="e_Com.tests.SearchTest">
+        <methods>
+          <include name="verifysearchwithvalidprduct"/>
+          <include name="verifysearchwithutenteringproduct"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="verifysearchwithinvalidprduct"/>
+        </methods>
+      </class> <!-- e_Com.tests.SearchTest -->
+    </classes>
+  </test> <!-- E-Commerse Test(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->

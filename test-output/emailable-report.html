@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">E-Commerse Test</a></td><td class="num">7</td><td class="num attn">2</td><td class="num">0</td><td class="num attn">1</td><td class="num">46,823</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">E-Commerse Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">e_Com.tests.SearchTest</td><td><a href="#m0">verifysearchwithinvalidprduct</a></td><td rowspan="1">1738073869871</td><td rowspan="1">553</td></tr><tr><th colspan="4">E-Commerse Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">e_Com.tests.LoginTest</td><td><a href="#m1">verifylogingusingcorrectemailpass</a></td><td rowspan="1">1738073884389</td><td rowspan="1">0</td></tr><tr class="skippedodd"><td rowspan="1">e_Com.tests.SearchTest</td><td><a href="#m2">verifysearchwithutenteringproduct</a></td><td rowspan="1">1738073870763</td><td rowspan="1">0</td></tr><tr><th colspan="4">E-Commerse Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">e_Com.tests.LoginTest</td><td><a href="#m3">correctemailwrongpass</a></td><td rowspan="1">1738073878409</td><td rowspan="1">897</td></tr><tr class="passedeven"><td><a href="#m4">wrongemailcorrectpass</a></td><td rowspan="1">1738073883243</td><td rowspan="1">904</td></tr><tr class="passedeven"><td><a href="#m5">wrongemailpassverifyerrormsg</a></td><td rowspan="1">1738073873985</td><td rowspan="1">966</td></tr><tr class="passedodd"><td rowspan="3">e_Com.tests.RegisterTest</td><td><a href="#m6">verifyregisteraccbyprovidingallfeild</a></td><td rowspan="1">1738073861076</td><td rowspan="1">1940</td></tr><tr class="passedodd"><td><a href="#m7">verifyregisteringanaccwithmandatoryfeild</a></td><td rowspan="1">1738073854360</td><td rowspan="1">1826</td></tr><tr class="passedodd"><td><a href="#m8">verifyregisteringwithsameemail</a></td><td rowspan="1">1738073848454</td><td rowspan="1">1585</td></tr><tr class="passedeven"><td rowspan="1">e_Com.tests.SearchTest</td><td><a href="#m9">verifysearchwithvalidprduct</a></td><td rowspan="1">1738073866325</td><td rowspan="1">565</td></tr></tbody>
+</table>
+<h2>E-Commerse Test</h2><h3 id="m0">e_Com.tests.SearchTest#verifysearchwithinvalidprduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: WarningMsgForSearchingInvalidProduct expected [abcd] but found [Products meeting the search criteria]
+	at e_Com.tests.SearchTest.verifysearchwithinvalidprduct(SearchTest.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">e_Com.tests.LoginTest#verifylogingusingcorrectemailpass</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; because &quot;workbook&quot; is null
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.NullPointerException: Cannot invoke &quot;org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)&quot; because &quot;workbook&quot; is null
+	at e_Com.utils.Utility.getTestDataFromExcel(Utility.java:42)
+	at e_Com.tests.LoginTest.supplyTestData(LoginTest.java:65)
+	... 25 more
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">e_Com.tests.SearchTest#verifysearchwithutenteringproduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method SearchTest.verifysearchwithutenteringproduct()[pri:3, instance:e_Com.tests.SearchTest@397fbdb] depends on not successfully finished methods
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">e_Com.tests.LoginTest#correctemailwrongpass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">e_Com.tests.LoginTest#wrongemailcorrectpass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">e_Com.tests.LoginTest#wrongemailpassverifyerrormsg</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">e_Com.tests.RegisterTest#verifyregisteraccbyprovidingallfeild</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">e_Com.tests.RegisterTest#verifyregisteringanaccwithmandatoryfeild</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">e_Com.tests.RegisterTest#verifyregisteringwithsameemail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">e_Com.tests.SearchTest#verifysearchwithvalidprduct</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

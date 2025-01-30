@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="7" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-28T19:47:17 IST" name="Automation Suite" finished-at="2025-01-28T19:48:04 IST" duration-ms="46823">
+    <groups>
+    </groups>
+    <test started-at="2025-01-28T19:47:17 IST" name="E-Commerse Test" finished-at="2025-01-28T19:48:04 IST" duration-ms="46823">
+      <class name="e_Com.tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:50 IST" name="setup" finished-at="2025-01-28T19:47:53 IST" duration-ms="3216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wrongemailpassverifyerrormsg()[pri:1, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:53 IST" name="wrongemailpassverifyerrormsg" finished-at="2025-01-28T19:47:54 IST" duration-ms="966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongemailpassverifyerrormsg -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:54 IST" name="teardown" finished-at="2025-01-28T19:47:55 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:55 IST" name="setup" finished-at="2025-01-28T19:47:58 IST" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="correctemailwrongpass()[pri:2, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:58 IST" name="correctemailwrongpass" finished-at="2025-01-28T19:47:59 IST" duration-ms="897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- correctemailwrongpass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:59 IST" name="teardown" finished-at="2025-01-28T19:47:59 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:47:59 IST" name="setup" finished-at="2025-01-28T19:48:03 IST" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wrongemailcorrectpass()[pri:3, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:48:03 IST" name="wrongemailcorrectpass" finished-at="2025-01-28T19:48:04 IST" duration-ms="904" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wrongemailcorrectpass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:48:04 IST" name="teardown" finished-at="2025-01-28T19:48:04 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="verifylogingusingcorrectemailpass(java.lang.String,java.lang.String)[pri:4, instance:e_Com.tests.LoginTest@33d512c1]" started-at="2025-01-28T19:48:04 IST" name="verifylogingusingcorrectemailpass" data-provider="testData" finished-at="2025-01-28T19:48:04 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.NullPointerException: Cannot invoke "org.apache.poi.xssf.usermodel.XSSFWorkbook.getSheet(String)" because "workbook" is null
+at e_Com.utils.Utility.getTestDataFromExcel(Utility.java:42)
+at e_Com.tests.LoginTest.supplyTestData(LoginTest.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogingusingcorrectemailpass -->
+      </class> <!-- e_Com.tests.LoginTest -->
+      <class name="e_Com.tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:43 IST" name="setup" finished-at="2025-01-28T19:47:46 IST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchwithvalidprduct()[pri:1, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:46 IST" name="verifysearchwithvalidprduct" finished-at="2025-01-28T19:47:46 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchwithvalidprduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:46 IST" name="teardown" finished-at="2025-01-28T19:47:47 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:47 IST" name="setup" finished-at="2025-01-28T19:47:49 IST" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifysearchwithinvalidprduct()[pri:2, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:49 IST" name="verifysearchwithinvalidprduct" finished-at="2025-01-28T19:47:50 IST" duration-ms="553" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[WarningMsgForSearchingInvalidProduct expected [abcd] but found [Products meeting the search criteria]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: WarningMsgForSearchingInvalidProduct expected [abcd] but found [Products meeting the search criteria]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at e_Com.tests.SearchTest.verifysearchwithinvalidprduct(SearchTest.java:43)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchwithinvalidprduct -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:50 IST" name="teardown" finished-at="2025-01-28T19:47:50 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method signature="verifysearchwithutenteringproduct()[pri:3, instance:e_Com.tests.SearchTest@397fbdb]" started-at="2025-01-28T19:47:50 IST" name="verifysearchwithutenteringproduct" finished-at="2025-01-28T19:47:50 IST" depends-on-methods="e_Com.tests.SearchTest.verifysearchwithvalidprduct, e_Com.tests.SearchTest.verifysearchwithinvalidprduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method SearchTest.verifysearchwithutenteringproduct()[pri:3, instance:e_Com.tests.SearchTest@397fbdb] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method SearchTest.verifysearchwithutenteringproduct()[pri:3, instance:e_Com.tests.SearchTest@397fbdb] depends on not successfully finished methods
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchwithutenteringproduct -->
+      </class> <!-- e_Com.tests.SearchTest -->
+      <class name="e_Com.tests.RegisterTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:18 IST" name="setup" finished-at="2025-01-28T19:47:28 IST" duration-ms="10443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteringwithsameemail()[pri:1, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:28 IST" name="verifyregisteringwithsameemail" finished-at="2025-01-28T19:47:30 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteringwithsameemail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:30 IST" name="teardown" finished-at="2025-01-28T19:47:30 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:30 IST" name="setup" finished-at="2025-01-28T19:47:34 IST" duration-ms="4055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteringanaccwithmandatoryfeild()[pri:2, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:34 IST" name="verifyregisteringanaccwithmandatoryfeild" finished-at="2025-01-28T19:47:36 IST" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteringanaccwithmandatoryfeild -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:36 IST" name="teardown" finished-at="2025-01-28T19:47:36 IST" duration-ms="211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:36 IST" name="setup" finished-at="2025-01-28T19:47:41 IST" duration-ms="4676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyregisteraccbyprovidingallfeild()[pri:3, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:41 IST" name="verifyregisteraccbyprovidingallfeild" finished-at="2025-01-28T19:47:43 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyregisteraccbyprovidingallfeild -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:e_Com.tests.RegisterTest@3c19aaa5]" started-at="2025-01-28T19:47:43 IST" name="teardown" finished-at="2025-01-28T19:47:43 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- e_Com.tests.RegisterTest -->
+    </test> <!-- E-Commerse Test -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
