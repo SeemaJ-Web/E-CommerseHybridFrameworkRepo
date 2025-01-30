@@ -59,7 +59,7 @@ public WebDriver driver;
 		AccSuccessPage acc = new AccSuccessPage(driver);
 		Assert.assertTrue(acc.getaccLogedInSuccessfullyMsg());
 	}
-	//Updated the Code
+	//Updated the Code Added more details
 	@DataProvider(name = "testData")
 	public Object[][] supplyTestData() {
 		
